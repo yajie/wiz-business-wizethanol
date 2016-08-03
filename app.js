@@ -46,7 +46,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', event.index);
+app.get('/', agenda.index);
 
 app.get('/users', user.list);
 //	Set Wiz Event Page Route Info
